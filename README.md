@@ -1,5 +1,15 @@
 # 더 커피 프랜즈 상세페이지
 
+## 저장소와 배포
+
+- GitHub: https://github.com/Ssecsecyee/coffee_friends
+- 운영 URL: https://coffee-friends-detail.vercel.app
+- main: 운영 배포 브랜치
+- develop: 수정 및 미리보기 브랜치
+- 검토 후 develop에서 main으로 Pull Request를 만들어 머지합니다.
+- 자세한 작업 순서는 CONTRIBUTING.md를 참고하세요.
+- 배포 화면에서는 최적화한 WebP 파일을 사용하고 원본 PNG는 로컬에 보관합니다.
+
 index.html을 브라우저로 열면 바로 작동합니다. 설치나 서버가 필요 없는 로컬 시안입니다.
 
 - index.html: 상품명, 본문, 이미지 경로, 문의 링크
