@@ -1,5 +1,15 @@
 # 추출 가이드 이미지
 
+## 추가: 추출 구조 비교와 서체
+
+내장 이미지 생성 도구로 원형 다카포 필터, 사각 드립백, 원뿔형 핸드드립 개념도 3장을 별도로 생성했습니다. 첨부된 비교표는 주제 참고로만 사용했으며, 문구와 레이아웃은 HTML로 새로 구성했습니다.
+
+공통 프롬프트: scientific-educational, one original cutaway filter diagram, matte white paper, navy outline, pale cyan flow arrows, amber coffee droplets, light icy blue square background, no text or measured performance claims. Round: arrows spread through broad rounded bed and converge at central bottom. Bag: arrows pass through grounds and leave through sides and bottom. Cone: arrows converge through tapered filter at bottom outlet.
+
+원본: C:/지산학혁신대전/이미지시안/05_추출방식비교. 웹 파일: assets/flow-round.webp, flow-bag.webp, flow-cone.webp.
+
+고운돋움 서체를 Google Fonts 공식 저장소에서 가져와 로컬 WOFF2로 포함했습니다. 라이선스: assets/fonts/OFL-GowunDodum.txt. 내용 및 도해는 구조를 이해하기 위한 설명이며 실제 성능 비교 시험 결과가 아닙니다.
+
 내장 이미지 생성 도구로 2026-11-03 제작한 연출 시안입니다. 실물 촬영물이 아닙니다. 원본 PNG는 C:/지산학혁신대전/이미지시안/04_추출가이드에 보관했습니다.
 
 ## 생성 기준과 프롬프트
