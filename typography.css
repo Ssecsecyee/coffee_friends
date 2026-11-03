@@ -34,3 +34,16 @@ html{scroll-padding-top:190px}
 .journey-note{margin-top:24px}
 @media(max-width:1000px){.friend-row{gap:32px}.friend-row .friend-art{height:360px}.friend-row .friend-art>img{height:310px}.friend-row .place-word{font-size:32px}}
 @media(max-width:700px){.friend-row{grid-template-columns:1fr;gap:12px;padding:26px 0 34px}.friend-row:nth-child(even) .friend-art,.friend-row:nth-child(even) .friend-copy{grid-column:auto;grid-row:auto;justify-self:stretch}.friend-row .friend-art{height:300px}.friend-row .friend-art>img{height:265px}.friend-row .friend-copy{max-width:none}.friend-row .place-word{font-size:32px}}
+
+/* Emphasized Hanji material and readable purchase information. */
+.hanji-emphasis{font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;font-weight:800;color:#754720;background:linear-gradient(transparent 65%,#f0ddbe 65%);padding:0 2px}
+.purchase-info{padding:80px 0;background:#f7f8f6;border-top:1px solid var(--line)}
+.purchase-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:24px}
+.purchase-card{background:#fff;border:1px solid #d7e1df;padding:32px;min-width:0;border-top:3px solid var(--ink)}
+.purchase-kicker{font:10px/1.5 Arial,sans-serif;letter-spacing:.08em;color:var(--muted)}
+.purchase-card h3{font-size:26px;margin:12px 0 24px}.purchase-highlight{padding:21px;background:#edf4f5;display:grid;gap:8px}.purchase-highlight>strong{font-size:21px}.purchase-highlight span{font-size:15px}
+.purchase-info strong,.purchase-info b{font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;font-weight:700;color:var(--ink)}
+.purchase-card ul{list-style:none;margin:24px 0 0;padding:0}.purchase-card li{position:relative;padding:0 0 18px 21px;font-size:14px;color:#50646b;line-height:1.9}.purchase-card li:before{content:"✓";position:absolute;left:0;color:#47766b;font-weight:700}
+.return-fees{display:grid;grid-template-columns:1fr 1fr;background:#edf4f5}.return-fees>div{padding:18px;display:grid;gap:7px}.return-fees>div+div{border-left:1px solid #d3e0e1}.return-fees span{font-size:12px;color:#50646b}.return-fees strong{font-size:25px}
+.purchase-contact{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 0;border-bottom:1px solid #d7e1df}.purchase-contact p{font-size:13px;color:var(--muted);margin-top:5px}.purchase-contact a{font:700 25px/1.4 Arial,sans-serif;color:var(--ink);white-space:nowrap}.purchase-contact a span{margin-left:12px}.purchase-note{font-size:12px;color:var(--muted);margin-top:18px;line-height:1.8}
+@media(max-width:700px){.purchase-info{padding:48px 0}.purchase-info .section-heading{display:block}.purchase-info .section-heading>p{margin-top:16px}.purchase-grid{grid-template-columns:1fr;gap:18px}.purchase-card{padding:24px 20px}.purchase-card h3{font-size:24px;margin-bottom:20px}.purchase-card li{font-size:13px}.return-fees>div{padding:15px 12px}.return-fees strong{font-size:23px}.purchase-contact{align-items:flex-start;flex-direction:column;gap:14px}.purchase-note{font-size:11px}}
