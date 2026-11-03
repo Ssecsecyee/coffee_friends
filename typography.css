@@ -25,3 +25,12 @@ html{scroll-padding-top:190px}
 @media(max-width:1000px){html{scroll-padding-top:215px}.header nav{gap:8px 20px;font-size:12px}.hero-copy{width:43%;padding-top:65px}.hero h1 span{font-size:34px}}
 @media(max-width:700px){html{scroll-padding-top:220px}.header{min-height:0;padding:17px 20px 12px;gap:14px 16px}.header nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px 8px;justify-content:initial;padding-top:10px;font-size:11px;text-align:center}.header nav a{padding:4px 0}.hero{margin-top:20px;height:690px}.hero-copy{width:100%;padding:32px 24px 0}.hero-image{inset:auto 0 12px;width:100%;height:320px;object-fit:contain;object-position:center}.hero:before{inset:0 0 330px}.hero-caption{bottom:9px;font-size:6px}.hero h1 span{font-size:34px}}
 @media(max-width:359px){.header nav{grid-template-columns:repeat(3,minmax(0,1fr))}html{scroll-padding-top:250px}}
+
+/* Five friends in one continuous, alternating story section. */
+.friends-story{border-top:1px solid #bbd4da}
+.friend-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:70px;align-items:center;padding:42px 0;border-bottom:1px solid #c9dce0;scroll-margin-top:24px}
+.friend-row:nth-child(even) .friend-art{grid-column:2;grid-row:1}.friend-row:nth-child(even) .friend-copy{grid-column:1;grid-row:1;justify-self:end}
+.friend-row .friend-art{width:100%;height:420px}.friend-row .friend-art>img{height:360px}.friend-row .friend-copy{width:100%}
+.journey-note{margin-top:24px}
+@media(max-width:1000px){.friend-row{gap:32px}.friend-row .friend-art{height:360px}.friend-row .friend-art>img{height:310px}.friend-row .place-word{font-size:32px}}
+@media(max-width:700px){.friend-row{grid-template-columns:1fr;gap:12px;padding:26px 0 34px}.friend-row:nth-child(even) .friend-art,.friend-row:nth-child(even) .friend-copy{grid-column:auto;grid-row:auto;justify-self:stretch}.friend-row .friend-art{height:300px}.friend-row .friend-art>img{height:265px}.friend-row .friend-copy{max-width:none}.friend-row .place-word{font-size:32px}}
