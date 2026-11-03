@@ -34,12 +34,3 @@ html{scroll-padding-top:190px}
 .journey-note{margin-top:24px}
 @media(max-width:1000px){.friend-row{gap:32px}.friend-row .friend-art{height:360px}.friend-row .friend-art>img{height:310px}.friend-row .place-word{font-size:32px}}
 @media(max-width:700px){.friend-row{grid-template-columns:1fr;gap:12px;padding:26px 0 34px}.friend-row:nth-child(even) .friend-art,.friend-row:nth-child(even) .friend-copy{grid-column:auto;grid-row:auto;justify-self:stretch}.friend-row .friend-art{height:300px}.friend-row .friend-art>img{height:265px}.friend-row .friend-copy{max-width:none}.friend-row .place-word{font-size:32px}}
-
-/* Centered product-detail canvas with quiet side gutters. */
-html{background:#f3f4f4}
-body{width:calc(100% - 80px);max-width:1200px;margin:0 auto;background:#fff;box-shadow:0 0 0 1px #e5e9ea}
-.container{width:min(1060px,calc(100% - 80px))}
-.hero{height:640px;margin-top:32px}
-.hero-copy{padding-top:100px}
-@media(max-width:1000px) and (min-width:701px){body{width:calc(100% - 48px)}.container{width:calc(100% - 48px)}.hero{height:570px}.hero-copy{padding-top:70px}.hero h1 span{font-size:30px}}
-@media(max-width:700px){body{width:100%;box-shadow:none}.container{width:calc(100% - 40px)}.hero{height:640px;margin-top:20px}.hero-copy{padding:32px 24px 0}}
