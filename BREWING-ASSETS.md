@@ -42,3 +42,8 @@ WebP는 PNG와 같은 해상도에서 품질 88로 변환했습니다. 텍스트
 https://busancoffee.co.kr/product/detail.html?product_no=176
 
 필터·30초 뜸 들이기·추가 두 차례 물 붓기는 기존 제품 안내에 근거합니다. #E 배합과 풍미는 기존 제품 참고 정보로 표시하고 캐릭터 시제품의 확정 사양으로 취급하지 않습니다. 가격·배송·과거 인증 효력은 추가하지 않았습니다.
+
+
+## 캐릭터 없는 일상 사진 v2
+Built-in imagegen edit, 2026-11-03. Source PNG: ../이미지시안/06_일상사진/lifestyle-{home,office,outdoor}-plain-v2.png. WebP: assets/.
+Prompt set: Preserve each home / office / seaside lifestyle scene, lighting and 4:3 composition. Remove all character-printed packages. Show non-character Da Capo circular navy paper support rim and suspended white basket filter on a clear coffee glass. Avoid plastic cone drippers and rectangular hanging-ear bags. No text overlays.
