@@ -1,5 +1,17 @@
 # 추출 가이드 이미지
 
+## 추가: 일상 사진
+
+내장 이미지 생성 도구로 집, 업무 공간, 야외 바닷가 장면을 각각 생성했습니다. 원본은 C:/지산학혁신대전/이미지시안/06_일상사진에, 웹 파일은 assets/lifestyle-home.webp, lifestyle-office.webp, lifestyle-outdoor.webp에 보관합니다.
+
+공통 프롬프트: photorealistic-natural everyday coffee product photo, landscape 4:3, original RONI circular printed paper pack design as identity reference, round navy paper collar and white paper basket geometry as physical reference. Coffee and product sharply inspectable, realistic scale, bright daylight, balanced blue/white/green, no text overlays or extra cartoon figures.
+
+- Home: window-side reading table, gray sofa, book and plant, finished black coffee and RONI pack.
+- Office: clean white desk, blank laptop screen, notebook and pen, circular filter on glass mug, RONI pack.
+- Outdoor: stable picnic table beside blue sea, foliage, mug and RONI pack, closed hot-water bottle behind, no fire or stove.
+
+설명은 HTML로 분리했습니다. 사진은 연출 시안이며 컵과 보온병 등 소품은 상품 구성품이 아닙니다.
+
 ## 추가: 추출 구조 비교와 서체
 
 내장 이미지 생성 도구로 원형 다카포 필터, 사각 드립백, 원뿔형 핸드드립 개념도 3장을 별도로 생성했습니다. 첨부된 비교표는 주제 참고로만 사용했으며, 문구와 레이아웃은 HTML로 새로 구성했습니다.
